@@ -1,0 +1,123 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+.hero-section {
+    background-image: url('../imgs/2.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+}
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #333;
+    border-style: solid;
+    text-align: center !important;
+}
+
+table th {
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+}
+
+table th:last-child {
+    width: 130px;
+}
+
+table td {
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.75rem;
+}
+
+table td button {
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 7px;
+    color: #fff;
+    background-color: #00b424;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.hero-section .hero-content table td button:hover {
+    background-color: #00881b;
+
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 20px;
+    }
+
+    .slogan {
+        font-size: 12px;
+    }
+
+    .nav-links li {
+        margin-left: 5px;
+    }
+
+    .hero-content h1 {
+        font-size: 36px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .feature {
+        flex-basis: 100%;
+    }
+
+    .cta-container h2 {
+        font-size: 24px;
+    }
+
+    .cta-container p {
+        font-size: 16px;
+    }
+
+}

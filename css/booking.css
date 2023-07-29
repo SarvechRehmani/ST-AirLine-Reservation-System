@@ -1,0 +1,88 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+.hero-section {
+    background-image: url('../imgs/10.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tabcontent {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.tablink.active {
+    background-color: #0056b3;
+}
+
+form label {
+
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+form input:focus,
+form select:focus {
+    outline: none;
+    box-shadow: 0 0 4px #007bff;
+    background-color: #fff;
+}
+
+form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #0056b3;
+}

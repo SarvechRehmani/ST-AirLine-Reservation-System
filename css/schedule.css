@@ -1,0 +1,54 @@
+
+.hero-section {
+    background-image: url('../imgs/4.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0;
+}
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+
+.hero-content table {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #333;
+    border-style: solid;
+    text-align: center;
+}
+
+.hero-content table th {
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+}
+
+.hero-content table td {
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.75rem;
+}
+
+.hero-content table td .edit {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 7px;
+    color: #fff;
+    background-color: #e67e22;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.hero-content table td .edit:hover {
+    background-color: #a75c1a;
+
+}
